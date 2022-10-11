@@ -5,13 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Andrea Delgado
+    </title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/src.js"></script>
 </head>
 
 <body>
-    <div id="output"></div>
+    <header class="header">
+        <div>
+            <p class="header_logo"> ANDREA DELGADO </p>
+        </div>
+        <nav class="menu">
+            <ul class="menu_list">
+                <li class="menu_element"><a class="menu_link" href="index.html">Home</a></li>
+                <li class="menu_element"><a href="hobbies.html" class="menu_link">Hobbies</a></li>
+                <li class="menu_element"><a href="curriculum.html" class="menu_link">Curriculum</a></li>
+                <li class="menu_element"><a href="contact.html" class="menu_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_index">
+        <br><br>
+        <section>
+            <img class="main_photo" src="images/inicio.jpeg" alt="paisaje"/>
+        </section>
+
+        <section class="main_general">
+            <div class="main_icons">
+                <img class="main_icon-curriculum" src="images/iconHobbies.jpeg" alt="hobbies">
+                <button onclick="location.href='hobbies.html'" class="main_hobbies">My hobbies</button>
+            </div>
+            <div class="main_icons">
+                <img class="main_icon-curriculum" src="images/iconAboutMe.jpeg" alt="curriculum">
+                <button onclick="location.href='curriculum.html'" class="main_curriculum">Curriculum Vitae</button>
+            </div>
+            <div class="main_icons">
+                <img class="main_icon-curriculum" src="images/contactIcon.jpeg" alt="contact">
+                <button onclick="location.href='contact.html'" class="main_buttonContact">Contact me</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p class="footer_name">ANDREA DELGADO</p>
+        <a class="footer_linkedin" href="https://www.linkedin.com/in/andrea-delgado-alonso-7039b4177"><img src="images/linkedin.png" alt="linkedin"/></a>
+        <p class="footer_email">andreadlgdo@hotmail.com</p>
+    </footer>
 </body>
 
 </html>

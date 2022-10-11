@@ -1,0 +1,254 @@
+.body_curriculum{
+    margin:0rem;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-template-columns: 1fr 2.5fr;
+
+}
+.header{
+    grid-area: header;
+    background: #E8F4F9;
+    padding: 0.5rem;
+}
+.header_logo{
+    display: flex;
+    font-family: cursive;
+    font-size: xxx-large;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu_list{
+    list-style: none;
+    display: flex;
+
+}
+.menu_element{
+    flex-flow: column;
+    padding: 0.7rem;
+    justify-content: left;
+    text-align: center;
+    color: black;
+}
+.menu_element:hover{
+    background: #D4ECF6;
+    color: black;
+}
+.menu_element:active{
+    background: #BCE2F1;
+}
+.menu_link{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.5rem 3rem;
+    background: #E8F4F9;
+}
+.aside{
+    grid-area: aside;
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    padding: 0.6rem;
+    background:  #E8F4F9;
+}
+.aside_logo{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    padding: 0.6rem;
+    border-bottom: 0.1rem solid darkgrey;
+}
+.aside_image{
+    padding: 2.5rem;
+    height: 18rem;
+    width: 18rem;
+}
+.aside_name{
+    text-align: center;
+
+    font-size: xx-large;
+}
+.aside_personal{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    border-bottom: 0.1rem solid darkgrey;
+}
+.aside_skills{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid darkgrey;
+}
+.main{
+    grid-area: main;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.aside_container{
+    background: rgb(192,192,192);
+    width: 90%;
+    border-radius: 15rem;
+}
+.aside_english, .aside_creativity, .aside_learning-capacity{
+    background-color: rgb(116, 194, 92);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 70%;
+}
+.aside_spanish{
+    background-color: rgb(116, 194, 92);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 100%;
+}
+.aside_languages{
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+.aside_communication, .aside_decisive{
+    background-color: rgb(116, 194, 92);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 90%;
+}
+.aside_teamwork, .aside_initiative{
+    background-color: rgb(116, 194, 92);
+    color: black;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 80%;
+}
+.main_work-experience, .main_education, .main_description{
+
+    padding: 2rem;
+}
+.main_title, .main_my-hobbies{
+    padding: 2rem;
+    text-align: center;
+    font-family: serif;
+    font-weight: 400;
+    font-size: xxx-large;
+}
+.main_contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem;
+}
+.contact_photo{
+    height: 40rem;
+    width: 30rem;
+}
+.form_message{
+    height: 15rem;
+    width: 30rem;
+}
+.aside_personalInfo, .aside_skills, .aside_language,.form_label{
+    font-size: large;
+}
+.main_about-me,.main_frontEnd, .main_intern, .main_software, .main_samsung {
+    font-size: large;
+    font-family: sans-serif;
+}
+.form_input{
+    height: 1.3rem;
+    width: 15rem;
+}
+.form_submit{
+    height: 2.5rem;
+    width: 8rem;
+    background: #C4F292;
+    border-color: #C4F292;
+}
+.main_contact-me{
+    font-family: serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+.footer_email{
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+.footer_name{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+.footer_linkedin{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main_photo {
+    width: 100%;
+}
+.main_general{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+}
+.main_icon-curriculum{
+    border-radius: 50%;
+    height: 17rem;
+    width: 17rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main_hobbies, .main_buttonContact, .main_curriculum{
+    height: 3rem;
+    border: white;
+    margin: 1rem;
+    background: #E3B981;
+    font-size: large;
+}
+.main_icons{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    justify-content: center;
+    align-content: center;
+}
+.section_hobbies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
+.section_snow, .section_run{
+    height: 25rem;
+    width: 20rem;
+}
+.main_hobbie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.main_image{
+    border-radius: 30%;
+    height: 25rem;
+    width: 25rem;
+}
+.main_sport,.main_creative, .main_spend-outside{
+    font-size: large;
+    font-family: sans-serif;
+    padding-right: 2rem;
+}
