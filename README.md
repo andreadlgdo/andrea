@@ -1,4 +1,10 @@
-# HTML
+# My projects
+I have made a personal website, with some information about me.
+
+[Web page](https://github.com/andreadlgdo/andrea-HTMLCSS-week1/src/index.html)
+
+# SOURCES
+## HTML
 
 [HTML in MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
@@ -8,7 +14,7 @@
 
 [HTML Elements list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
-# CSS
+## CSS
 
 [What is CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
 
@@ -16,11 +22,11 @@
 
 [CSS dinner](http://flukeout.github.io/)
 
-## Normal flow
+### Normal flow
 
 [Normal flow on MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)
 
-## Flexbox
+### Flexbox
 
 [Flexbox in MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
@@ -28,13 +34,13 @@
 
 [Flexbox froggy](https://flexboxfroggy.com)
 
-## Grid
+### Grid
 
 [Grid in MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
 
 [Grid garden](https://cssgridgarden.com/)
 
-## References
+### References
 
 [MDN](https://developer.mozilla.org/en-US/)
 
@@ -42,8 +48,3 @@
 
 [CSS-tricks](https://css-tricks.com/)
 
-# Task for this week
-
-Creating your own personal website, it can have multiple sections. 
-
-Try using semantic HTML elements, `grid` and `flex` in the process.
