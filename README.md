@@ -1,7 +1,7 @@
 # My projects
 I have made a personal website, with some information about me.
 
-[Web page](https://github.com/andreadlgdo/andrea-HTMLCSS-week1/src/index.html)
+[Web page](https://andreadlgdo.github.io/andrea-HTMLCSS-week1/src/index.html)
 
 # SOURCES
 ## HTML
